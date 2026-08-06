@@ -8,17 +8,19 @@ export default function Header({ isDark, onToggleTheme }) {
 
   return (
     <header className="sticky top-0 z-40 border-b border-neutral-200/80 bg-white/92 backdrop-blur-xl dark:border-white/10 dark:bg-neutral-950/90">
+      
       <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
         <div className="grid items-center gap-4 lg:grid-cols-[240px_minmax(420px,1fr)_240px]">
           <div className="flex items-center gap-3">
             <button className={actionClass + " lg:hidden"} type="button" aria-label="Open menu">
               <Icon name="menu" size={iconSize} strokeWidth={2} />
             </button>
-            <a href="/" className="flex min-w-0 items-center gap-3" aria-label="ShopSphere home">
+            <a href="/" className="flex min-w-0 items-center gap-3" aria-label="Sundaram Sansaar home">
               <span className="grid h-11 w-11 shrink-0 place-items-center rounded-2xl bg-accent text-lg font-black text-white shadow-lg shadow-orange-500/20">
-                S
+                <img src="src\public\image\SUNDARAM SANSAAR (1).jpg"/>
               </span>
-              <span className="truncate text-xl font-semibold tracking-tight">ShopSphere</span>
+              
+              <span className="truncate text-xl font-semibold tracking-tight">Sundaram Sansaar</span>
             </a>
           </div>
 

@@ -11,7 +11,7 @@ export default function Footer() {
         <div>
           <a className="flex items-center gap-3" href="/">
             <span className="grid h-11 w-11 place-items-center rounded-2xl bg-accent text-lg font-black">S</span>
-            <span className="text-xl font-semibold">ShopSphere</span>
+            <span className="text-xl font-semibold">Sundaram Sansaar</span>
           </a>
           <p className="mt-5 max-w-md text-sm leading-6 text-neutral-300">
             Premium commerce UI built from reusable React sections, static data, and API-ready content boundaries.
